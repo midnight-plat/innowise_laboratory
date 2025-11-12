@@ -4,7 +4,8 @@ build-backend = "setuptools.build_meta"
 
 dependencies = [
 
-    "wheel>= 0.45.1" # установка версии бибилиотеки
+    "wheel>= 0.45.1",
+    "colorama==0.4.6"  # установка версии бибилиотеки
 
 ]
 
