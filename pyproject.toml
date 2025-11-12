@@ -2,6 +2,12 @@
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
+dependencies = [
+
+    "wheel>= 0.45.1" # установка версии бибилиотеки
+
+]
+
 [project]
 authors = [
   {name = "Viktor", email = "viktor@example.com"}
