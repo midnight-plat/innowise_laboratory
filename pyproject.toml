@@ -3,9 +3,10 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 dependencies = [
-
-    "wheel>= 0.45.1",
-    "colorama==0.4.6"  # установка версии бибилиотеки
+    "fastapi==0.104.1",
+"sqlalchemy>=2.0.0",
+"uvicorn~=0.20.0",
+"pydantic==2.5.3"  # установка версии бибилиотеки
 
 ]
 
