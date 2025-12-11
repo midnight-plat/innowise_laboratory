@@ -1,2 +1,9 @@
-wheel==0.45.1
-colorama==0.4.6
+# for lecture_1
+#wheel==0.45.1
+#colorama==0.4.6
+
+# for lecture_5
+fastapi==0.104.1
+sqlalchemy>=2.0.0
+uvicorn~=0.20.0
+pydantic==2.5.3
